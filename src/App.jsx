@@ -66,3 +66,4 @@ export default App;
 
 // npm run dev
 // npm run server
+// npm run build
