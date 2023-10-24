@@ -1,5 +1,5 @@
-import PageNav from "../components/PageNav";
-import styles from "./Product.module.css";
+import PageNav from '../components/PageNav';
+import styles from './Product.module.css';
 
 export default function Product() {
   return (
@@ -8,21 +8,22 @@ export default function Product() {
 
       <section>
         <img
-          src="img-1.jpg"
-          alt="person with dog overlooking mountain with sunset"
+          src='img-1.jpg'
+          alt='person with dog overlooking mountain with sunset'
         />
         <div>
-          <h2>About WorldWide.</h2>
+          <h2>About "Around The World" app.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est
-            dicta illum vero culpa cum quaerat architecto sapiente eius non
-            soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
-            perspiciatis?
+            At "Around The World" we believe that travel is a transformative
+            experience, and every city holds a story waiting to be discovered.
+            Our app is designed to empower travelers like you, so you can
+            capture the magic of your journeys and share it with the world.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            doloribus libero sunt expedita ratione iusto, magni, id sapiente
-            sequi officiis et.
+            We're passionate about enabling your wanderlust and turning your
+            travel dreams into reality. Our app is built with love and
+            commitment to helping you explore the world, one adventure at a
+            time.
           </p>
         </div>
       </section>

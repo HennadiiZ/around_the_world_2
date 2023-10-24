@@ -1,6 +1,6 @@
 // Uses the same styles as Product
-import PageNav from "../components/PageNav";
-import styles from "./Product.module.css";
+import PageNav from '../components/PageNav';
+import styles from './Product.module.css';
 
 export default function Product() {
   return (
@@ -10,17 +10,18 @@ export default function Product() {
       <section>
         <div>
           <h2>
-            Simple pricing.
+            Pricing is so afordable.
             <br />
-            Just $9/month.
+            Just $1/month.
           </h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
-            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
-            voluptatem iste.
+            Do you dream of exploring the world, one city at a time? With the
+            "Around The World" app, your dreams become a reality. For just $1,
+            you can unlock a world of features and experiences that will forever
+            change the way you travel.
           </p>
         </div>
-        <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />
+        <img src='img-2.jpg' alt='overview of a large city with skyscrapers' />
       </section>
     </main>
   );

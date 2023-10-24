@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import PageNav from "../components/PageNav";
-import styles from "./Homepage.module.css";
+import { Link } from 'react-router-dom';
+import PageNav from '../components/PageNav';
+import styles from './Homepage.module.css';
 
 export default function Homepage() {
   return (
@@ -8,17 +8,18 @@ export default function Homepage() {
       <PageNav />
 
       <section>
-        <h1>
-          You travel the world.
-          <br />
-          WorldWise keeps track of your adventures.
-        </h1>
+        <h1>Do you like to travel the world?</h1>
         <h2>
-          A world map that tracks your footsteps into every city you can think
-          of. Never forget your wonderful experiences, and show your friends how
-          you have wandered the world.
+          With the 'Around The World app,' you can effortlessly track your
+          travels and cherish the memories of your adventures.
         </h2>
-        <Link to="/login" className="cta">
+        <h2>
+          Imagine a world map that records every step you've taken in cities all
+          around the globe. Never lose the memory of your incredible adventures,
+          and proudly share with your friends the remarkable journey you've
+          embarked on across the world
+        </h2>
+        <Link to='/login' className='cta'>
           Start tracking now
         </Link>
       </section>
