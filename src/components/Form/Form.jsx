@@ -8,10 +8,10 @@ import { useUrlPosition } from '../../hooks/useUrlPosition';
 import { useCities } from '../../contexts/CitiesContext';
 import { BASE_URL, convertToEmoji } from '../../utils/utils';
 
-import Button from '../Button/Button';
+import Button from '../../shared/Button/Button';
 import BackButton from '../BackButton/BackButton';
-import Message from '../Message/Message';
-import Spinner from '../Spinner/Spinner';
+import Message from '../../shared/Message/Message';
+import Spinner from '../../shared/Spinner/Spinner';
 
 function Form() {
   const [lat, lng] = useUrlPosition();

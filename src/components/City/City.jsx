@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useCities } from '../../contexts/CitiesContext';
 import BackButton from '../BackButton/BackButton';
 import styles from './City.module.css';
-import Spinner from '../Spinner/Spinner';
+import Spinner from '../../shared/Spinner/Spinner';
 import { formatDate } from '../../utils/utils';
 
 function City() {

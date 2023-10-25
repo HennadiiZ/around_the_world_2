@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import Logo from '../Logo/Logo';
+import Logo from '../../shared/Logo/Logo';
 import styles from './PageNav.module.css';
 import { useAuth } from '../../contexts/FakeAuthContext';
 

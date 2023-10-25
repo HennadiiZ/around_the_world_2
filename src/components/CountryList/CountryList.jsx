@@ -1,7 +1,7 @@
-import Spinner from '../Spinner/Spinner';
+import Spinner from '../../shared/Spinner/Spinner';
 import styles from './CountryList.module.css';
 import CountryItem from '../CountryItem/CountryItem';
-import Message from '../Message/Message';
+import Message from '../../shared/Message/Message';
 import { useCities } from '../../contexts/CitiesContext';
 
 function CountryList() {
