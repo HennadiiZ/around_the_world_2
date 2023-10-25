@@ -1,28 +1,17 @@
 // "https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=0&longitude=0"
-
+import styles from './Form.module.css';
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import { useUrlPosition } from '../../hooks/useUrlPosition';
+import { useCities } from '../../contexts/CitiesContext';
+import { BASE_URL, convertToEmoji } from '../../utils/utils';
 
 import Button from '../Button/Button';
 import BackButton from '../BackButton/BackButton';
-
-import styles from './Form.module.css';
-import { useUrlPosition } from '../../hooks/useUrlPosition';
 import Message from '../Message/Message';
 import Spinner from '../Spinner/Spinner';
-import { useCities } from '../../contexts/CitiesContext';
-import { useNavigate } from 'react-router-dom';
-
-export function convertToEmoji(countryCode) {
-  const codePoints = countryCode
-    .toUpperCase()
-    .split('')
-    .map((char) => 127397 + char.charCodeAt());
-  return String.fromCodePoint(...codePoints);
-}
-
-const BASE_URL = 'https://api.bigdatacloud.net/data/reverse-geocode-client';
 
 function Form() {
   const [lat, lng] = useUrlPosition();

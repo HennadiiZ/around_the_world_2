@@ -5,8 +5,7 @@ import {
   useReducer,
   useCallback,
 } from 'react';
-
-const BASE_URL = 'http://localhost:9000';
+import { SERVER_URL } from '../utils/utils';
 
 const CitiesContext = createContext();
 
@@ -71,7 +70,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: 'loading' });
 
       try {
-        const res = await fetch(`${BASE_URL}/cities`);
+        const res = await fetch(`${SERVER_URL}/cities`);
         const data = await res.json();
         dispatch({ type: 'cities/loaded', payload: data });
       } catch {
@@ -91,7 +90,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: 'loading' });
 
       try {
-        const res = await fetch(`${BASE_URL}/cities/${id}`);
+        const res = await fetch(`${SERVER_URL}/cities/${id}`);
         const data = await res.json();
         dispatch({ type: 'city/loaded', payload: data });
       } catch {
@@ -108,7 +107,7 @@ function CitiesProvider({ children }) {
     dispatch({ type: 'loading' });
 
     try {
-      const res = await fetch(`${BASE_URL}/cities`, {
+      const res = await fetch(`${SERVER_URL}/cities`, {
         method: 'POST',
         body: JSON.stringify(newCity),
         headers: {
@@ -130,7 +129,7 @@ function CitiesProvider({ children }) {
     dispatch({ type: 'loading' });
 
     try {
-      await fetch(`${BASE_URL}/cities/${id}`, {
+      await fetch(`${SERVER_URL}/cities/${id}`, {
         method: 'DELETE',
       });
 

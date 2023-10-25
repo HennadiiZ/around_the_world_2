@@ -1,16 +1,16 @@
 {
   "cities": [
     {
-      "cityName": "Itero del Castillo",
+      "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2023-10-25T02:31:07.410Z",
+      "date": "2023-10-25T03:09:21.523Z",
       "notes": "",
       "position": {
-        "lat": "42.293564192170095",
-        "lng": "-4.240722656250001"
+        "lat": "40.413496049701955",
+        "lng": "-3.6982727050781254"
       },
-      "id": 1
+      "id": 2
     }
   ]
 }

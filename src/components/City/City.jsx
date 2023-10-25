@@ -4,14 +4,7 @@ import { useCities } from '../../contexts/CitiesContext';
 import BackButton from '../BackButton/BackButton';
 import styles from './City.module.css';
 import Spinner from '../Spinner/Spinner';
-
-const formatDate = (date) =>
-  new Intl.DateTimeFormat('en', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-    weekday: 'long',
-  }).format(new Date(date));
+import { formatDate } from '../../utils/utils';
 
 function City() {
   const { id } = useParams();
