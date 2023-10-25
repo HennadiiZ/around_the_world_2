@@ -1,28 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Lozoya",
+      "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2023-10-25T01:45:57.415Z",
+      "date": "2023-10-25T03:09:21.523Z",
       "notes": "",
       "position": {
-        "lat": "40.9964840143779",
-        "lng": "-3.7792968750000004"
+        "lat": "40.413496049701955",
+        "lng": "-3.6982727050781254"
       },
-      "id": 73930386
+      "id": 2
+    },
+    {
+      "cityName": "Calgary",
+      "country": "Canada",
+      "emoji": "🇨🇦",
+      "date": "2023-10-25T04:51:27.350Z",
+      "notes": "",
+      "position": {
+        "lat": "50.972264889367494",
+        "lng": "-113.99414062500001"
+      },
+      "id": 4
+    },
+    {
+      "cityName": "Rawlins",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2023-10-25T04:52:01.360Z",
+      "notes": "",
+      "position": {
+        "lat": "42.42345651793833",
+        "lng": "-107.49023437500001"
+      },
+      "id": 5
     }
   ]
 }
