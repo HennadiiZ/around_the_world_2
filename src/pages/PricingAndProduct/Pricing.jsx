@@ -7,7 +7,7 @@ export default function Pricing() {
       <PageNav />
 
       <section>
-        <div>
+        <div className={styles.text}>
           <h2>
             Pricing is so afordable.
             <br />
@@ -20,6 +20,12 @@ export default function Pricing() {
             change the way you travel.
           </p>
         </div>
+        {/* <div className={styles.img}>
+          <img
+            src='img-2.jpg'
+            alt='overview of a large city with skyscrapers'
+          />
+        </div> */}
         <img src='img-2.jpg' alt='overview of a large city with skyscrapers' />
       </section>
     </main>

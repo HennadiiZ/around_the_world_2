@@ -32,3 +32,41 @@
 .product section a {
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 900px) {
+  .product h2 {
+    font-size: 3.5rem;
+  }
+
+  .product section {
+    width: clamp(60rem, 60%, 70rem);
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product section {
+    width: clamp(40rem, 40%, 50rem);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .product section {
+    width: clamp(30rem, 30%, 30rem);
+  }
+
+  .product h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .product section {
+    width: clamp(20rem, 20%, 20rem);
+  }
+
+  .product h2 {
+    font-size: 1.5rem;
+  }
+}
