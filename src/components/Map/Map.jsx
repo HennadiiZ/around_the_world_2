@@ -14,6 +14,8 @@ import { useCities } from '../../contexts/CitiesContext';
 import { useGeolocation } from '../../hooks/useGeolocation';
 import { useUrlPosition } from '../../hooks/useUrlPosition';
 import Button from '../../shared/Button/Button';
+import Spinner from '../../shared/Spinner/Spinner';
+import SpinnerSmall from '../../shared/SpinnerSmall/SpinnerSmall';
 
 function Map() {
   const { cities } = useCities();
@@ -44,7 +46,7 @@ function Map() {
     <div className={styles.mapContainer}>
       {!geolocationPosition && (
         <Button type='position' onClick={getPosition}>
-          {isLoadingPosition ? 'Loading...' : 'Use your position'}
+          {isLoadingPosition ? <SpinnerSmall /> : 'Use your position'}
         </Button>
       )}
 

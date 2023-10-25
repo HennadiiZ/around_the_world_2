@@ -9,7 +9,7 @@ import { useCities } from '../../contexts/CitiesContext';
 import { BASE_URL, convertToEmoji } from '../../utils/utils';
 
 import Button from '../../shared/Button/Button';
-import BackButton from '../BackButton/BackButton';
+import BackButton from '../../shared/BackButton/BackButton';
 import Message from '../../shared/Message/Message';
 import Spinner from '../../shared/Spinner/Spinner';
 
