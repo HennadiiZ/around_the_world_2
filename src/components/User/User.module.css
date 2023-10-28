@@ -20,6 +20,14 @@
   height: 4rem;
 }
 
+.fakeAvatar {
+  border-radius: 100px;
+  height: 4rem;
+  width: 4rem;
+  background: #000;
+  border: 1px solid white;
+}
+
 .user button {
   background-color: var(--color-dark--2);
   border-radius: 7px;

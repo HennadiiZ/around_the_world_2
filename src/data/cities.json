@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Vancouver",
+      "country": "Canada",
+      "emoji": "🇨🇦",
+      "date": "2023-10-27T22:15:19.335Z",
+      "notes": "",
+      "position": {
+        "lat": "49.163746759588975",
+        "lng": "-122.99743652343751"
+      },
+      "id": 3
+    },
+    {
+      "cityName": "Crooked River",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2023-10-27T22:25:07.670Z",
+      "notes": "",
+      "position": {
+        "lat": "43.96119063892027",
+        "lng": "-120.69580078125001"
+      },
+      "id": 5
+    },
+    {
+      "cityName": "Nisa",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2023-10-28T01:46:45.941Z",
+      "notes": "",
+      "position": {
+        "lat": "39.470125122358176",
+        "lng": "-7.778320312500001"
+      },
+      "id": 6
+    }
+  ]
+}
